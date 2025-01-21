@@ -15,6 +15,7 @@ public class Chromelaunchinggmailaccount {
 //		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //		driver.close();; sdet2 branch
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.close();
  }
 
 }
